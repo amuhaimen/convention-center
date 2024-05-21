@@ -60,3 +60,46 @@ li {
   font-weight: 700;
   line-height: 28px; /* 175% */
 }
+.ccard {
+  border-radius: 26px;
+}
+.ccard:hover {
+  width: 290px;
+}
+.ccard h2 {
+  color: #231d4f;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px; /* 127.778% */
+}
+.ccard:hover {
+  background-color: #3f87f5;
+  width: 290px;
+  border-radius: 26px;
+  transition: 0.5s ease-in-out;
+}
+.ccard:hover h2 {
+  color: white;
+}
+.ccard:hover h3 {
+  color: #ffffff;
+}
+.ccard:hover p {
+  color: #ffffff;
+}
+
+.ccard h3 {
+  color: #231d4f;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.ccard p {
+  color: #848199;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
